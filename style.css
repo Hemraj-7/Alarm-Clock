@@ -1,0 +1,115 @@
+/* https://fonts.google.com/specimen/Playwrite+IE+Guides */
+@font-face {
+    font-family: 'Digital-7';
+    src: url('/Digital.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: "Playwrite IE Guides", serif; */
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.others{
+    display: flex;
+    gap: 50px;
+}
+
+h1{
+    font-size: 250px;
+    font-family: 'Digital-7', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.label{
+    padding-left: 5px;
+}
+
+.input{
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 12px;
+    font-family: 'Digital-7', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#setA{
+    padding: 10px 30px;
+    font-family: 'Digital-7', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 200px;
+    color: rgb(255, 255, 255);
+    border: inset;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.heading{
+    font-family: 'Digital-7', sans-serif;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+    font-size: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.by{
+    width: 65%;
+    text-align: right;
+}
+
+@media (max-width: 700px) { 
+    .others{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .label1,
+    .label2,
+    .label3{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    h1{
+        font-size: 125px;
+    }
+    .by{
+        width: 75%;
+    }
+}
