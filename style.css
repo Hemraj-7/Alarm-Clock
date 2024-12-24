@@ -71,7 +71,7 @@ h1{
     color: rgb(255, 255, 255);
     border: inset;
     background-color: rgb(0, 0, 0);
-
+    cursor: pointer;
 }
 
 .heading{
